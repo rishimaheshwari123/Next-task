@@ -1,0 +1,147 @@
+.item{
+    background-color: white;
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5%;
+    border-radius: 12px;
+    width: fit-content;
+height: 425px;
+border-radius: 12px;
+padding: 0;
+margin-left: 5px;
+margin-right: 5px;
+
+
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.img-div{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 5%;
+    flex-direction: column;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.main h2{
+ 
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+.para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+
+     
+}
+
+
+
+.name{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+
+
+           
+}
+
+.price{
+font-size: 20px;
+font-weight: 400;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: left;
+color: #5C6874;
+text-align: left;
+}
+
+.discount-price{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: #9FA9B3;
+
+
+}
+
+.discount-percent{
+    color: #EF4C5D;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+
+
+
+}
+
+.btn{
+    height: 48px;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 1rem;
+
+
+    
+}
+
+.tag{
+    width: 69px;
+height: 28px;
+border-radius: 8px;
+font-size: 12px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color: #074786;
+background-color: rgb(208, 242, 255);
+padding: 1px 4px;
+
+
+
+}
+.tags{
+    width: 100%;
+    margin-left: 2.5rem;
+}
+
+.description{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0em;
+
+}
+

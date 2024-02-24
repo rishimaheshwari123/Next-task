@@ -1,0 +1,73 @@
+.container {
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    background-color: #212731;
+    height: 64px ;
+    padding-left: 15%;
+    padding-right: 15%;
+   margin-top: -8px;
+
+
+}
+@media screen and (max-width: 992px) {
+    .container{
+       height: 2%;
+
+    }
+    .navbar{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
+        padding-top: 5rem;
+        height: 1rem;
+    
+    
+    }
+ }
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+    width: 100%;
+
+
+}
+
+.nav-link{
+    color: #D1D6DA !important;
+    font-weight: 400;
+    line-height: 20px;
+
+}
+.signUp{
+    background-color: white !important;
+    border: none !important;
+    border-radius: 100px !important;
+    color: black !important;
+
+
+}
+
+.signUp i{
+    width: 50px !important;
+height: 24px !important;
+font-size: 24px;
+margin-right: 0;
+padding-right: 0;
+padding-left: 1rem;
+border-radius: 100px !important;
+color: black !important;
+
+
+
+
+
+}
+
+.search{
+    border: none !important;
+    border-radius: 100px !important;
+    color: black I !important;
+}
