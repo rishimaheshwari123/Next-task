@@ -4,12 +4,12 @@ import styles from "../../styles/Content.module.scss";
 import img from "../../images/image.png";
 import Image from "next/image";
 import Link from "next/link";
-import { Zoom } from "react-reveal";
+import { Fade } from "react-awesome-reveal";
 
 const Content = ({ data, index }) => {
   let serialNo = Number(index) + 1;
   return (
-    <Zoom>
+    <Fade>
       <div className={styles["main"]}>
         <div className={styles["img-div"]}>
           {data.tag ? (
@@ -51,7 +51,7 @@ const Content = ({ data, index }) => {
           <Button className={styles["btn"]}>View</Button>
         </div>
       </div>
-    </Zoom>
+    </Fade>
   );
 };
 

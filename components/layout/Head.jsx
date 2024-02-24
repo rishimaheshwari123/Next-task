@@ -1,10 +1,10 @@
 import React from "react";
 import styles from "../../styles/HomePage.module.scss";
-import { Fade } from "react-reveal";
+import { Bounce, Fade } from "react-awesome-reveal";
 
 const Head = () => {
   return (
-    <Fade right>
+    <Bounce>
       <div>
         <h1 className={styles["heading"]}>Best Website builder in the US</h1>
         <hr />
@@ -25,7 +25,7 @@ const Head = () => {
         </div>
         <hr />
       </div>
-    </Fade>
+    </Bounce>
   );
 };
 

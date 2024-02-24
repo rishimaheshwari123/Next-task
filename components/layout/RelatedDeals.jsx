@@ -3,12 +3,12 @@ import img from "../../images/image.png";
 import Image from "next/image";
 import styles from "../../styles/RelatedDeals.module.scss";
 import { Button } from "react-bootstrap";
-import { Flip } from "react-reveal";
+import { Slide } from "react-awesome-reveal";
 
 const RelatedDeals = () => {
   const Deals = () => {
     return (
-      <Flip>
+      <Slide>
         <div className={styles["item"]}>
           <div className={styles["img-div"]}>
             <Image src={img} width={141} height={103} alt="" />
@@ -29,7 +29,7 @@ const RelatedDeals = () => {
             <Button className={styles["btn"]}>View Deal</Button>
           </div>
         </div>
-      </Flip>
+      </Slide>
     );
   };
 

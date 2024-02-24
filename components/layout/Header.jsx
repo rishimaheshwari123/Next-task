@@ -7,7 +7,7 @@ import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import styles from "../../styles/Navbar.module.scss";
 import InputGroup from "react-bootstrap/InputGroup";
-import { Fade } from "react-reveal";
+import { Zoom } from "react-awesome-reveal";
 
 const Header = () => {
   return (
@@ -20,7 +20,7 @@ const Header = () => {
           navbarScroll
           fluid
         >
-          <Fade left>
+          <Zoom>
             <Form className="d-flex">
               <InputGroup className={styles["signUp"]}>
                 <i class="bi bi-search "></i>
@@ -36,7 +36,7 @@ const Header = () => {
             <Nav.Link href="#action2" className={styles["nav-link"]}>
               Today's deals
             </Nav.Link>
-          </Fade>
+          </Zoom>
         </Nav>
       </Container>
     </Navbar>
